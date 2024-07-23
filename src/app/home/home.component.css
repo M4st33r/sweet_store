@@ -1,0 +1,46 @@
+
+.hero {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("/assets/icon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: top;
+  overflow-y:hidden;
+  margin:  0;
+  padding: 0;
+  position: static;
+  height: 100vh;
+}
+.welcome-message {
+    font-family: 'Arvo';font-size: 37px;
+    padding-left:120px;
+    padding-top:220px;
+
+    color: White;
+}
+.cat-button {
+    font-family: 'Arvo';font-size: 22px;
+    color:black;
+    background-color: rgb(200, 163, 94);
+    padding:12px;
+    border-radius: 10px;
+}
+
+.welcome-message-2 {
+    font-family: 'Arvo';font-size: 37px;
+    color: White;
+    padding-left:1500px;
+    padding-top:150px;
+}
+.logo {
+    font-family: 'Arvo';font-size: 24px;
+}
+
+.logo2 {
+    font-family: 'Arvo';font-size: 28px;
+    color:wheat;
+}
+a{
+    text-decoration: none;
+}
