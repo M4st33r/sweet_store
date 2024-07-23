@@ -7,8 +7,6 @@
   background-attachment:fixed;
   background-position: top;
   overflow-y:hidden;
-  margin:  0;
-  padding: 0;
   position: static;
   height: 100vh;
 }
@@ -16,6 +14,7 @@
     font-family: 'Arvo';font-size: 37px;
     padding-left:120px;
     padding-top:220px;
+    position: absolute;
 
     color: White;
 }
@@ -31,7 +30,8 @@
     font-family: 'Arvo';font-size: 37px;
     color: White;
     padding-left:1500px;
-    padding-top:150px;
+    padding-top:450px;
+    position: absolute;
 }
 .logo {
     font-family: 'Arvo';font-size: 24px;
